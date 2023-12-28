@@ -7,8 +7,11 @@
 }
 
 .circle {
-  width: 20px;
-  height: 20px;
+	display:flex;
+ justify-content: center;
+elign-item:center;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background-color: #ccc;
 }
@@ -18,8 +21,9 @@
 }
 
 button {
+	margin:none;
 	color:white;
-	background-color:blue;
+	background-color:#007bff;
 	border-radius:2px;
 	padding:8px 15px;
   margin: 10px;

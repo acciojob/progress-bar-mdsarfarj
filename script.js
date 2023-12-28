@@ -2,6 +2,10 @@
 const circles = document.querySelectorAll('.circle');
 const prevButton = document.getElementById('prev');
 const nextButton = document.getElementById('next');
+// Add this code at the beginning of your script.js file
+document.addEventListener("DOMContentLoaded", function() {
+  circles[0].classList.add('active');
+});
 
 let currentCircle = 0;
 
